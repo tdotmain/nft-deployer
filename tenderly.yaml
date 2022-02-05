@@ -1,0 +1,22 @@
+account_id: c1e03882-eefb-4758-9c92-345bf6f15e0e
+project_slug: infnfty
+provider: ""
+
+exports:
+  ganache:
+    project_slug: infnfty
+    rpc_address: 127.0.0.1:8545
+    protocol: http
+    forked_network: mainnet
+    chain_config:
+      homestead_block: 0 # (default 0)
+      eip150_block: 0 # (default 0)
+      eip150_hash: 0x0 # (default 0x0)
+      eip155_block: 0 # (default 0)
+      eip158_block: 0 # (default 0)
+      byzantium_block: 0 # (default 0)
+      constantinople_block: 0 # (default 0)
+      petersburg_block: 0 # (default 0)
+      istanbul_block: 0 # (default 0)
+      berlin_block: 0 # (default 0)
+      london_block: 0 # (default 0)
